@@ -6,7 +6,7 @@ function palindrome(str){
 	let j=n-1;
 	while(i<=j)
 		{
-			if(str.toLowerCase(charAt(i))!==str.toLowerCase(charAt(j)))
+			if(str.charAt(i)!==str.charAt(j))
 			{
 				return false;
 			}
